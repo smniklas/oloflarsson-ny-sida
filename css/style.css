@@ -1,0 +1,88 @@
+html{
+  font-family: 'Raleway', sans-serif !important;
+  font-family: 'Oswald', sans-serif;
+}
+nav ul a,
+nav .brand-logo {
+  color: white;
+}
+.main-title-div{
+  position: absolute;
+  top: 30%;
+  left: 55%;
+  transform: translate(-55%, -30%);
+  color: #F89406;
+  font-family: 'Oswald', sans-serif!important;
+  width:70%;
+}
+.main-title-div h1{
+    font-size:5rem !important;
+    font-weight: bold;
+}
+.text-title-h{
+  font-family: 'Oswald', sans-serif!important;
+}
+p {
+  line-height: 2rem;
+}
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+.title-font{
+  font-weight: bold;
+  color: #F89406;
+}
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  .main-title-div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #F89406;
+  font-family: 'Oswald', sans-serif!important;
+}
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.page-footer {
+  margin: 0;
+}
+.self-parallax{
+  background-image: url("../olof-on-watches.jpeg");
+  min-height: 1000px;
+      background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
